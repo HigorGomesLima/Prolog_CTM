@@ -1,0 +1,396 @@
+class(casos).
+class(cbr_description).
+class(cbr_index).
+class(cbrcase).
+class(contador).
+class(ctm_goiania).
+class(ctm_palmas).
+class(forma_anuncio).
+class(licenca_publicidade).
+class(licenca_sonora).
+class(licenca_visual).
+class(local_anuncio).
+class(tempo).
+property(has_description).
+property(has_duration).
+property(has_one).
+property(has_place).
+individual(alto-falantes).
+individual(anual).
+individual(anuncio).
+individual(anuncio_1).
+individual(anuncio_10).
+individual(anuncio_11).
+individual(anuncio_12).
+individual(anuncio_2).
+individual(anuncio_3).
+individual(anuncio_4).
+individual(anuncio_4_2).
+individual(anuncio_4_3).
+individual(anuncio_4_4).
+individual(anuncio_5).
+individual(anuncio_6).
+individual(anuncio_7).
+individual(anuncio_8).
+individual(anuncio_9).
+individual(anuncio_9_2).
+individual(anuncio_impresso).
+individual(anuncio_luminoso).
+individual(area).
+individual(automovel).
+individual(automovel_de_aluguel).
+individual(bike_door).
+individual(carta).
+individual(cartaz).
+individual(conjunto_musical).
+individual(diario).
+individual(espaco_aberto).
+individual(folheto).
+individual(imovel).
+individual(letreiro).
+individual(luminoso).
+individual(mensal).
+individual(nao_especificado).
+individual(outdoor).
+individual(painel).
+individual(painel_luminoso).
+individual(placa).
+individual(semestral).
+individual(sonora_1).
+individual(sonora_2).
+individual(sonora_2_2).
+individual(sonora_3).
+individual(tela_cinema).
+individual(trimestral).
+individual(unidade).
+individual(veiculo).
+individual(visual_1).
+individual(visual_10).
+individual(visual_10_2).
+individual(visual_10_3).
+individual(visual_11).
+individual(visual_12).
+individual(visual_13).
+individual(visual_14).
+individual(visual_15).
+individual(visual_16).
+individual(visual_17).
+individual(visual_1_2).
+individual(visual_1_3).
+individual(visual_1_4).
+individual(visual_2).
+individual(visual_3).
+individual(visual_4).
+individual(visual_5).
+individual(visual_6).
+individual(visual_7).
+individual(visual_8).
+individual(visual_9).
+individual(vitrine).
+has_subclass(cbr_description,casos).
+has_subclass(cbrcase,_13).
+has_subclass(cbr_index,contador).
+has_subclass(casos,ctm_goiania).
+has_subclass(casos,ctm_palmas).
+has_subclass(cbr_index,forma_anuncio).
+has_subclass(ctm_palmas,licenca_publicidade).
+has_subclass(ctm_goiania,licenca_sonora).
+has_subclass(ctm_goiania,licenca_visual).
+has_subclass(cbr_index,local_anuncio).
+has_subclass(cbr_index,tempo).
+has_individual(forma_anuncio,alto-falantes).
+has_individual(tempo,anual).
+has_individual(forma_anuncio,anuncio).
+has_individual(licenca_publicidade,anuncio_1).
+has_individual(licenca_publicidade,anuncio_10).
+has_individual(licenca_publicidade,anuncio_11).
+has_individual(licenca_publicidade,anuncio_12).
+has_individual(licenca_publicidade,anuncio_2).
+has_individual(licenca_publicidade,anuncio_3).
+has_individual(licenca_publicidade,anuncio_4).
+has_individual(licenca_publicidade,anuncio_4_2).
+has_individual(licenca_publicidade,anuncio_4_3).
+has_individual(licenca_publicidade,anuncio_4_4).
+has_individual(licenca_publicidade,anuncio_5).
+has_individual(licenca_publicidade,anuncio_6).
+has_individual(licenca_publicidade,anuncio_7).
+has_individual(licenca_publicidade,anuncio_8).
+has_individual(licenca_publicidade,anuncio_9).
+has_individual(licenca_publicidade,anuncio_9_2).
+has_individual(forma_anuncio,anuncio_impresso).
+has_individual(forma_anuncio,anuncio_luminoso).
+has_individual(contador,area).
+has_individual(contador,automovel).
+has_individual(forma_anuncio,automovel_de_aluguel).
+has_individual(local_anuncio,automovel_de_aluguel).
+has_individual(forma_anuncio,bike_door).
+has_individual(forma_anuncio,carta).
+has_individual(forma_anuncio,cartaz).
+has_individual(forma_anuncio,conjunto_musical).
+has_individual(tempo,diario).
+has_individual(local_anuncio,espaco_aberto).
+has_individual(forma_anuncio,folheto).
+has_individual(local_anuncio,imovel).
+has_individual(forma_anuncio,letreiro).
+has_individual(forma_anuncio,luminoso).
+has_individual(tempo,mensal).
+has_individual(local_anuncio,nao_especificado).
+has_individual(forma_anuncio,outdoor).
+has_individual(forma_anuncio,painel).
+has_individual(forma_anuncio,painel_luminoso).
+has_individual(forma_anuncio,placa).
+has_individual(tempo,semestral).
+has_individual(licenca_sonora,sonora_1).
+has_individual(licenca_sonora,sonora_2).
+has_individual(licenca_sonora,sonora_2_2).
+has_individual(licenca_sonora,sonora_3).
+has_individual(forma_anuncio,tela_cinema).
+has_individual(tempo,trimestral).
+has_individual(contador,unidade).
+has_individual(local_anuncio,veiculo).
+has_individual(licenca_visual,visual_1).
+has_individual(licenca_visual,visual_10).
+has_individual(licenca_visual,visual_10_2).
+has_individual(licenca_visual,visual_10_3).
+has_individual(licenca_visual,visual_11).
+has_individual(licenca_visual,visual_12).
+has_individual(licenca_visual,visual_13).
+has_individual(licenca_visual,visual_14).
+has_individual(licenca_visual,visual_15).
+has_individual(licenca_visual,visual_16).
+has_individual(licenca_visual,visual_17).
+has_individual(licenca_visual,visual_1_2).
+has_individual(licenca_visual,visual_1_3).
+has_individual(licenca_visual,visual_1_4).
+has_individual(licenca_visual,visual_2).
+has_individual(licenca_visual,visual_3).
+has_individual(licenca_visual,visual_4).
+has_individual(licenca_visual,visual_5).
+has_individual(licenca_visual,visual_6).
+has_individual(licenca_visual,visual_7).
+has_individual(licenca_visual,visual_8).
+has_individual(licenca_visual,visual_9).
+has_individual(forma_anuncio,vitrine).
+
+has_description(anuncio_1,alto-falantes).
+has_description(anuncio_10,vitrine).
+has_description(anuncio_11,outdoor).
+has_description(anuncio_12,painel_luminoso).
+has_description(anuncio_2,alto-falantes).
+has_description(anuncio_3,conjunto_musical).
+has_description(anuncio_4,carta).
+has_description(anuncio_4_2,folheto).
+has_description(anuncio_4_3,carta).
+has_description(anuncio_4_4,folheto).
+has_description(anuncio_5,anuncio).
+has_description(anuncio_6,anuncio).
+has_description(anuncio_7,tela_cinema).
+has_description(anuncio_8,anuncio_luminoso).
+has_description(anuncio_9,painel).
+has_description(anuncio_9_2,cartaz).
+has_description(sonora_1,alto-falantes).
+has_description(sonora_2,alto-falantes).
+has_description(sonora_2_2,alto-falantes).
+has_description(sonora_3,conjunto_musical).
+has_description(visual_1,carta).
+has_description(visual_1_2,folheto).
+has_description(visual_1_3,carta).
+has_description(visual_1_4,folheto).
+has_description(visual_10,painel).
+has_description(visual_10_2,letreiro).
+has_description(visual_10_3,placa).
+has_description(visual_11,vitrine).
+has_description(visual_12,outdoor).
+has_description(visual_13,outdoor).
+has_description(visual_14,outdoor).
+has_description(visual_15,painel_luminoso).
+has_description(visual_16,anuncio).
+has_description(visual_17,bike_door).
+has_description(visual_2,anuncio).
+has_description(visual_3,anuncio).
+has_description(visual_4,anuncio_impresso).
+has_description(visual_5,anuncio_impresso).
+has_description(visual_6,anuncio_luminoso).
+has_description(visual_7,anuncio_luminoso).
+has_description(visual_8,tela_cinema).
+has_description(visual_9,anuncio_luminoso).
+has_duration(anuncio_1,mensal).
+has_duration(anuncio_10,mensal).
+has_duration(anuncio_11,anual).
+has_duration(anuncio_12,anual).
+has_duration(anuncio_2,mensal).
+has_duration(anuncio_3,diario).
+has_duration(anuncio_4,mensal).
+has_duration(anuncio_4_2,mensal).
+has_duration(anuncio_4_3,mensal).
+has_duration(anuncio_4_4,mensal).
+has_duration(anuncio_5,mensal).
+has_duration(anuncio_6,mensal).
+has_duration(anuncio_7,mensal).
+has_duration(anuncio_8,mensal).
+has_duration(anuncio_9,mensal).
+has_duration(anuncio_9_2,mensal).
+has_duration(sonora_1,anual).
+has_duration(sonora_2,anual).
+has_duration(sonora_2_2,mensal).
+has_duration(sonora_3,diario).
+has_duration(visual_1,anual).
+has_duration(visual_1_2,anual).
+has_duration(visual_1_3,anual).
+has_duration(visual_1_4,anual).
+has_duration(visual_10,anual).
+has_duration(visual_10_2,anual).
+has_duration(visual_10_3,anual).
+has_duration(visual_11,anual).
+has_duration(visual_12,anual).
+has_duration(visual_13,semestral).
+has_duration(visual_14,trimestral).
+has_duration(visual_15,anual).
+has_duration(visual_16,anual).
+has_duration(visual_17,anual).
+has_duration(visual_2,anual).
+has_duration(visual_3,trimestral).
+has_duration(visual_4,anual).
+has_duration(visual_5,trimestral).
+has_duration(visual_6,anual).
+has_duration(visual_7,trimestral).
+has_duration(visual_8,anual).
+has_duration(visual_9,anual).
+has_one(anuncio_1,unidade).
+has_one(anuncio_10,unidade).
+has_one(anuncio_11,unidade).
+has_one(anuncio_12,unidade).
+has_one(anuncio_2,unidade).
+has_one(anuncio_3,unidade).
+has_one(anuncio_4,unidade).
+has_one(anuncio_4_2,unidade).
+has_one(anuncio_4_3,unidade).
+has_one(anuncio_4_4,unidade).
+has_one(anuncio_5,veiculo).
+has_one(anuncio_6,veiculo).
+has_one(anuncio_7,unidade).
+has_one(anuncio_8,area).
+has_one(anuncio_9,area).
+has_one(anuncio_9_2,area).
+has_one(sonora_1,unidade).
+has_one(sonora_2,unidade).
+has_one(sonora_2_2,unidade).
+has_one(sonora_3,unidade).
+has_one(visual_1,unidade).
+has_one(visual_1_2,unidade).
+has_one(visual_1_3,unidade).
+has_one(visual_1_4,unidade).
+has_one(visual_10,unidade).
+has_one(visual_10_2,unidade).
+has_one(visual_10_3,unidade).
+has_one(visual_11,area).
+has_one(visual_12,veiculo).
+has_one(visual_13,veiculo).
+has_one(visual_14,veiculo).
+has_one(visual_15,veiculo).
+has_one(visual_16,veiculo).
+has_one(visual_17,veiculo).
+has_one(visual_2,veiculo).
+has_one(visual_3,veiculo).
+has_one(visual_4,veiculo).
+has_one(visual_5,veiculo).
+has_one(visual_6,veiculo).
+has_one(visual_7,veiculo).
+has_one(visual_8,unidade).
+has_one(visual_9,unidade).
+has_place(anuncio_1,imovel).
+has_place(anuncio_10,imovel).
+has_place(anuncio_11,espaco_aberto).
+has_place(anuncio_12,nao_especificado).
+has_place(anuncio_2,automovel).
+has_place(anuncio_3,nao_especificado).
+has_place(anuncio_4,espaco_aberto).
+has_place(anuncio_4_2,espaco_aberto).
+has_place(anuncio_4_3,imovel).
+has_place(anuncio_4_4,imovel).
+has_place(anuncio_5,automovel).
+has_place(anuncio_6,imovel).
+has_place(anuncio_7,imovel).
+has_place(anuncio_8,imovel).
+has_place(anuncio_9,imovel).
+has_place(anuncio_9_2,imovel).
+has_place(sonora_1,imovel).
+has_place(sonora_2,automovel).
+has_place(sonora_2_2,automovel).
+has_place(sonora_3,nao_especificado).
+has_place(visual_1,espaco_aberto).
+has_place(visual_1_2,espaco_aberto).
+has_place(visual_1_3,imovel).
+has_place(visual_1_4,imovel).
+has_place(visual_10,imovel).
+has_place(visual_10_2,imovel).
+has_place(visual_10_3,imovel).
+has_place(visual_11,imovel).
+has_place(visual_12,espaco_aberto).
+has_place(visual_13,espaco_aberto).
+has_place(visual_14,espaco_aberto).
+has_place(visual_15,nao_especificado).
+has_place(visual_16,imovel).
+has_place(visual_17,espaco_aberto).
+has_place(visual_2,automovel).
+has_place(visual_3,automovel).
+has_place(visual_4,automovel_de_aluguel).
+has_place(visual_5,automovel_de_aluguel).
+has_place(visual_6,automovel_de_aluguel).
+has_place(visual_7,automovel_de_aluguel).
+has_place(visual_8,imovel).
+has_place(visual_9,imovel).
+
+
+%OPERAÇÕES DE BUSCA E SOMA
+buscar(X,O) :-
+    has_individual(X,O);
+    has_subclass(X,Z), buscar(Z,O).
+listar_ordem(X,L):-
+    findall(N,buscar(X,N),L).
+comparar_description(A,B,R):-
+    has_description(A,X),has_description(B,X) ->  R is 40;
+    R is 0.
+comparar_duration(A,B,R):-
+    has_duration(A,X),has_duration(B,X) ->  R is 10;
+    R is 0.
+comparar_one(A,B,R):-
+    has_one(A,X),has_one(B,X) ->  R is 20;
+    R is 0.
+comparar_place(A,B,R):-
+    has_place(A,X),has_place(B,X) ->  R is 30;
+    R is 0.
+comparar_ordem(O1,O2,V):-
+	comparar_description(O1,O2,A),
+    comparar_duration(O1,O2,B),
+    comparar_one(O1,O2,C),
+    comparar_place(O1,O2,D),
+	V is (A + B + C + D) / 100.
+comparar_lista([],_,0).
+comparar_lista([H1|T1],C,R):-
+    comparar_lista(T1,C,Rest),
+    comparar_lista2(H1,C,L),
+    max(L,X),
+    R is Rest + X,!.
+max([],X) :- X is 0.
+max([X],X) :- !, true.
+max([X|Xs], M):- max(Xs, M), M >= X.
+max([X|Xs], X):- max(Xs, M), X >  M.
+comparar_lista2(O,C,L):-
+    findall(R,(has_description(O,X),has_description(Y,X),buscar(C,Y),comparar_ordem(O,Y,R)),L).
+%OPERAÇÕES PRINCIPAIS
+analise_cbr(ObjetoA,ObjetoB,Similaridade):-
+    listar_ordem(ObjetoA,L1),
+    comparar_lista(L1,ObjetoB,Soma),
+    length(L1,Q),
+    Similaridade is Soma / Q.
+
+analise_cbr_b(ObjetoA,ObjetoB,Similaridade):-
+    class(ObjetoA),class(ObjetoB),
+    listar_ordem(ObjetoA,L1),
+    listar_ordem(ObjetoB,L2),
+    comparar_lista(L1,ObjetoB,S1),
+	comparar_lista(L2,ObjetoA,S2),
+	length(L1,Q1),length(L2,Q2),
+    M1 is S1/Q1,M2 is S2/Q2,
+    Similaridade is (M1 + M2) / 2.
